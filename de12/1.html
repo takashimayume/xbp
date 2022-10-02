@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <body style="background-color:lightyellow"></body>
+    
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>第１回</title>
+    <!-- ⑤スタイルシートの設定をしよう -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- h1.htmlからある行をコピペしてくればOK -->
+
+</head>
+<body>
+    
+    <h1>第１回</h1>
+    <!-- 塊ごとにdivタグで区切るようにしましょう。 -->
+    <div><center><font size="5"><b><font color="tan">1.Gitについて</font></b></font></center><br>
+        <br>
+    
+         <!-- ①↓に文字を書いてみよう -->
+         <b>Gitとは、分散型バージョン管理システムのことです。</b>
+         簡単にいうと、ファイルのバージョン管理が簡単にできるツールと言えます。
+         Gitで管理しているファイルであれば、コンピューター上でファイルの編集履歴を管理できるので、
+         編集前のファイルを残したまま、新しく編集したファイルを保存することができます。
+         なので古いバージョンから新しいバージョンまでの管理が簡単です。<br>
+         <br>
+         <font size="4"><b>Gitでできること </b></font><br>
+         Gitが分散型バージョン管理システムと呼ばれる理由は、このような特徴があるからです。<br>
+         <ul>
+            <li>古いバージョンに簡単に戻せる</li>
+            <li>新旧のファイルを一元管理できる</li>
+            <li>編集した履歴を複数人で共有できる</li>
+            <li>複数人で修正した部分を一つに統合できる</li>
+        </ul><br>
+        <font size="4"><b>リポジトリってなに？</b></font><br>
+       <b>リポジトリは、ファイルやディレクトリの状態を記録する場所のことです。</b><br>
+       Gitのリポジトリは、まず以下の2種類に分けられます。
+<ol>
+    <li>専用のサーバに配置して複数人で共有するための<b>リモートリポジトリ</b></li>
+    <li>ユーザ一人ひとりが利用するために、自分の手元のマシン上に配置する<b>ローカルリポジトリ</b></li>
+</ol>
+これらを図式化したものがこちらです。<br>
+<img src="リポジトリ.jpeg" width="30%"><br>
+<br>参考文献<br>
+<a href="https://tcd-theme.com/2019/12/what-is-git.html?gclid=CjwKCAjwp9qZBhBkEiwAsYFsb6NZpv9HU_OGD_NAgHW1Mj_8FuBbKHBGhJbLsc3Jos9oJr5swQO8uhoCPhcQAvD_BwE" target="_blank">
+    【初心者向け】Gitとは何なのか。基本用語やその仕組みをまとめています。</a><br>
+    <a href="https://backlog.com/ja/git-tutorial/intro/02/" target="_blank">
+    履歴を管理するリポジトリ</a><br><br><br>
+     </div>
+
+    <div><center><font size="5"><b><font color="tan">2.HTMLについて</font></b></font></center><br>
+        HTMLとは「<font color="red">H</font>yper <font color="red">T</font>ext 
+        <font color="red">M</font>arkup <font color="red">L</font>anguage」のことで、
+        WEBページを作成するための言語です。<br>
+        文字は普通のテキストだけでなく、「見出し」にしたり、
+        「太文字」や「文字の色」を変更して強調したり、<br>
+        「下線」を入れて装飾したりすることもあります。<br><br>
+
+        <font size="4"><b>HTMLタグとは</b></font><br>
+        Webページなどを記述するマークアップ言語であるHTMLで、
+        表示システム側に伝達する制御情報を記す記法であり、<br>
+        小なり記号「<」と大なり記号「>」で囲まれた部分をいいます。<br><br>
+        ex)<ul>
+            <li><b>見出し</b></li><br>
+            ＜h1＞見出し大＜/h1＞<br>
+            ＜h2＞見出し中＜/h2＞<br>
+            ＜h3＞見出し小＜/h3＞<br><br>
+           <u> <strong>見え方</strong></u><br>
+            <h1>見出し大</h1>
+            <h2>見出し中</h2>
+            <h3>見出し小</h3><br><br>
+
+            <li><b>フォントサイズ</b></li><br>
+            ＜font size="1"＞フォントサイズ1＜/font＞<br>
+            ＜font size="4"＞フォントサイズ4＜/font＞<br>
+            ＜font size="7"＞フォントサイズ7＜/font＞<br><br>
+           <u><b>見え方</b></u><br>
+            <font size="1">フォントサイズ1</font><br>
+            <font size="4">フォントサイズ4</font><br>
+            <font size="7">フォントサイズ7</font><br><br>
+
+            <li><b>箇条書き</b></li>
+            ＜ul＞<br>
+            ＜li＞りんご＜/li＞<br>
+            ＜li＞いちご＜/li＞<br>
+            ＜li＞ぶどう＜/li＞<br>
+            ＜/ul＞<br>
+
+            <u><b>見え方</b></u><br>
+            <li>りんご</li><br>
+            <li>いちご</li><br>
+            <li>ぶどう</li><br><br>
+
+            <li><b>番号リスト</b></li>
+            ＜ol＞
+            ＜li＞らいおん＜/li＞<br>
+            ＜li＞しまうま＜/li＞<br>
+            ＜li＞とら＜/li＞<br>
+            ＜/ol＞<br>
+
+            <u><b>見え方</b></u><br>
+            <ol><li>らいおん</li><br>
+            <li>しまうま</li><br>
+            <li>とら</li>
+        </ol>
+    </ul><br><br>
+    他にも使えるタグがたくさんあります！！<br>
+    <a href="http://www.fureai.or.jp/~irie/html-tag/"
+     target="_blank">HTMLタグ一覧</a><br><br>
+     参考文献<br>
+     <a href="https://udemy.benesse.co.jp/design/web-design/what-is-html.html" 
+     target="_blank">HTMLとは？初心者向けにタグの種類と使い方の基本を解説！</a><br>
+     <a href="https://e-words.jp/w/HTML%E3%82%BF%E3%82%B0.html" 
+     target="_blank">HTMLタグ 【HTML tag】</a><br>
+
+</div>
+
+
+
+
+
+</body>
+</html>
