@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../.vscode"
+		},
+		{
+			"path": "../../../anaconda3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mygit"
+	}
+}
