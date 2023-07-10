@@ -38,7 +38,7 @@ void loop() {
   if(d8_data == HIGH){
       pixels.clear(); // すべてのLEDの色を0にセット
       for(int i=0; i<NUMPIXELS; i++) {
-        pixels.setPixelColor(i, pixels.Color(100, 255, 100));
+        pixels.setPixelColor(i, pixels.Color(255, , 0));
         pixels.show();
       } 
     }else {
